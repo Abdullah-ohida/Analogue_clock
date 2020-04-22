@@ -146,7 +146,8 @@
     left: 0;
     width: 100%;
     height: 100%;
-    
+    transition: all 0.05sec;
+    transition-timing-function: cubic-bezier(0.1, 2.7, 0.58 1);
 }
 
 .hand div{
@@ -154,13 +155,14 @@
     bottom: 50%;
     left: 50%;
     transform: translateX(-50%);
-    background: black;
     text-align: center;
 }
 
 .sec{
     width: 2px;
     height: 40%;
+    background: rgba(255, 255, 255, 0.966);
+    
 }
 
 .min{
@@ -168,6 +170,7 @@
     width: 4px;
     border-top-right-radius: 5px;
     border-top-left-radius: 5px;
+    background-color: black;
 }
 
 .hour{
@@ -175,6 +178,7 @@
     width: 7px;
     border-top-right-radius: 5px;
     border-top-left-radius: 5px;
+    background-color: black;
 }
 
 
