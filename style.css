@@ -56,7 +56,7 @@
     font-weight: 600;
 }
 
-.num:after{
+/* .num:after{
     content: '';
     position: relative;
     top: 0;
@@ -65,7 +65,7 @@
     width: 5px;
     height: 15px;
     background-color: black;
-}
+} */
 
 .num1{
     transform: rotate(30deg);
@@ -172,21 +172,9 @@
 
 .hour{
     height: 28%;
-    width: 8px;
+    width: 7px;
     border-top-right-radius: 5px;
     border-top-left-radius: 5px;
 }
 
-
-#sec{
-    transform: rotate(30deg)
-}
-
-#min{
-    transform: rotate(0deg)
-}
-
-#hour{
-    transform: rotate(180deg)
-}
 
